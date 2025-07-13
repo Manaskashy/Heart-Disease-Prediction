@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__,template_folder='templates')
 
 # Load the model and scaler
-model = pickle.load(open('rf_classifier.pkl', 'rb'))
+model = pickle.load(open('rf_classifier.pkl', 'rb')) 
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 # Prediction function
